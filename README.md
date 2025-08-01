@@ -9,7 +9,7 @@
 
 **A modern, elegant budget tracking application designed for personal financial management with advanced analytics and insights.**
 
-[Live Demo](#) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Contributing](#contributing)
+[Live Demo](https://fintrackpatner.netlify.app/) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Contributing](#contributing)
 
 </div>
 
