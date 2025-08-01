@@ -1,0 +1,357 @@
+/* Responsive Design for Modern Budget Tracker */
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding-inline: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .budget-section,
+    .expense-section {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .expense-overview {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .balance-card {
+        padding: 32px;
+    }
+    
+    .balance-amount {
+        font-size: 4.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 56.25%;
+    }
+    
+    .container {
+        padding-inline: 16px;
+    }
+    
+    .nav-content {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .nav-title {
+        font-size: 2rem;
+    }
+    
+    .dashboard-header h1 {
+        font-size: 3.6rem;
+    }
+    
+    .dashboard-header p {
+        font-size: 1.6rem;
+    }
+    
+    .budget-section {
+        gap: 20px;
+    }
+    
+    .balance-card {
+        padding: 24px;
+    }
+    
+    .balance-amount {
+        font-size: 4rem;
+    }
+    
+    .balance-currency {
+        font-size: 2rem;
+    }
+    
+    .expense-overview {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .overview-card {
+        padding: 20px;
+    }
+    
+    .overview-amount {
+        font-size: 2.8rem;
+    }
+    
+    .expense-section {
+        gap: 20px;
+    }
+    
+    .expense-list-card,
+    .add-expense-card {
+        padding: 24px;
+    }
+    
+    .expense-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 12px;
+    }
+    
+    .expense-amount {
+        margin-left: 0;
+        font-size: 1.6rem;
+    }
+    
+    .expense-actions {
+        margin-left: 0;
+        align-self: flex-end;
+    }
+    
+    .btn-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 1.2rem;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+    
+
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .container {
+        padding-inline: 12px;
+    }
+    
+    .nav-title {
+        font-size: 1.8rem;
+    }
+    
+    .dashboard-header h1 {
+        font-size: 3.2rem;
+    }
+    
+    .dashboard-header p {
+        font-size: 1.4rem;
+    }
+    
+    .balance-card {
+        padding: 20px;
+    }
+    
+    .balance-amount {
+        font-size: 3.6rem;
+    }
+    
+    .balance-currency {
+        font-size: 1.8rem;
+    }
+    
+    .add-budget-card,
+    .add-expense-card,
+    .expense-list-card {
+        padding: 20px;
+    }
+    
+    .add-budget-title,
+    .add-expense-title,
+    .expense-list-title {
+        font-size: 1.8rem;
+    }
+    
+    .overview-card {
+        padding: 16px;
+    }
+    
+    .overview-amount {
+        font-size: 2.4rem;
+    }
+    
+    .overview-title {
+        font-size: 1.2rem;
+    }
+    
+    .expense-title {
+        font-size: 1.4rem;
+    }
+    
+    .expense-desc {
+        font-size: 1.2rem;
+    }
+    
+    .expense-date {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 1.3rem;
+    }
+    
+    .input-field {
+        padding: 10px 14px;
+        font-size: 1.3rem;
+    }
+    
+    .currency-selector select {
+        padding: 10px 36px 10px 14px;
+        font-size: 1.3rem;
+    }
+    
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-inline: 8px;
+    }
+    
+    .nav-title {
+        font-size: 1.6rem;
+    }
+    
+    .dashboard-header h1 {
+        font-size: 2.8rem;
+    }
+    
+    .balance-card {
+        padding: 16px;
+    }
+    
+    .balance-amount {
+        font-size: 3.2rem;
+    }
+    
+    .balance-currency {
+        font-size: 1.6rem;
+    }
+    
+    .add-budget-card,
+    .add-expense-card,
+    .expense-list-card {
+        padding: 16px;
+    }
+    
+    .add-budget-title,
+    .add-expense-title,
+    .expense-list-title {
+        font-size: 1.6rem;
+    }
+    
+    .overview-card {
+        padding: 12px;
+    }
+    
+    .overview-amount {
+        font-size: 2rem;
+    }
+    
+    .expense-item {
+        padding: 10px;
+    }
+    
+    .expense-title {
+        font-size: 1.3rem;
+    }
+    
+    .expense-desc {
+        font-size: 1.1rem;
+    }
+    
+    .expense-amount {
+        font-size: 1.4rem;
+    }
+    
+    .btn-icon {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 1.2rem;
+    }
+    
+    .input-field {
+        padding: 8px 12px;
+        font-size: 1.2rem;
+    }
+    
+    .currency-selector select {
+        padding: 8px 32px 8px 12px;
+        font-size: 1.2rem;
+    }
+    
+
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 600px) and (orientation: landscape) {
+    .dashboard {
+        padding: 20px 0;
+    }
+    
+    .dashboard-header {
+        margin-bottom: 20px;
+    }
+    
+    .balance-card {
+        padding: 20px;
+    }
+    
+    .balance-amount {
+        font-size: 3.6rem;
+    }
+    
+    .expense-list {
+        max-height: 250px;
+    }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .btn,
+    .input-field,
+    .currency-selector select {
+        border-width: 1px;
+    }
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    body::before,
+    body::after {
+        animation: none;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-primary: #1f2937;
+        --bg-secondary: #374151;
+        --bg-tertiary: #4b5563;
+        --text-primary: #f9fafb;
+        --text-secondary: #d1d5db;
+        --text-light: #9ca3af;
+        --border-color: #4b5563;
+    }
+}
