@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 import './responsive.css';
 import Dashboard from './components/Dashboard/Dashboard';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 // Main App component - Direct to dashboard without authentication
 function App() {
